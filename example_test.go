@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"JaegerFong/websocket"
-	"JaegerFong/websocket/wsjson"
+	"github.com/JaegerFong/websocket"
+	"github.com/JaegerFong/websocket/wsjson"
 )
 
 func ExampleAccept() {

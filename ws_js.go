@@ -1,4 +1,4 @@
-package websocket // import "JaegerFong/websocket"
+package websocket // import "github.com/JaegerFong/websocket"
 
 import (
 	"bytes"
@@ -13,9 +13,9 @@ import (
 	"sync"
 	"syscall/js"
 
-	"JaegerFong/websocket/internal/bpool"
-	"JaegerFong/websocket/internal/wsjs"
-	"JaegerFong/websocket/internal/xsync"
+	"github.com/JaegerFong/websocket/internal/bpool"
+	"github.com/JaegerFong/websocket/internal/wsjs"
+	"github.com/JaegerFong/websocket/internal/xsync"
 )
 
 // Conn provides a wrapper around the browser WebSocket API.

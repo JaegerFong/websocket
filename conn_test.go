@@ -21,14 +21,14 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/duration"
 
-	"JaegerFong/websocket"
-	"JaegerFong/websocket/internal/errd"
-	"JaegerFong/websocket/internal/test/assert"
-	"JaegerFong/websocket/internal/test/wstest"
-	"JaegerFong/websocket/internal/test/xrand"
-	"JaegerFong/websocket/internal/xsync"
-	"JaegerFong/websocket/wsjson"
-	"JaegerFong/websocket/wspb"
+	"github.com/JaegerFong/websocket"
+	"github.com/JaegerFong/websocket/internal/errd"
+	"github.com/JaegerFong/websocket/internal/test/assert"
+	"github.com/JaegerFong/websocket/internal/test/wstest"
+	"github.com/JaegerFong/websocket/internal/test/xrand"
+	"github.com/JaegerFong/websocket/internal/xsync"
+	"github.com/JaegerFong/websocket/wsjson"
+	"github.com/JaegerFong/websocket/wspb"
 )
 
 func TestConn(t *testing.T) {

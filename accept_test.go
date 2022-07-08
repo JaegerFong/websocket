@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"JaegerFong/websocket/internal/test/assert"
+	"github.com/JaegerFong/websocket/internal/test/assert"
 )
 
 func TestAccept(t *testing.T) {

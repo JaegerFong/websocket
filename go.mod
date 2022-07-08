@@ -1,4 +1,4 @@
-module JaegerFong/websocket
+module github.com/JaegerFong/websocket
 
 go 1.13
 

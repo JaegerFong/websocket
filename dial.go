@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"JaegerFong/websocket/internal/errd"
+	"github.com/JaegerFong/websocket/internal/errd"
 )
 
 // DialOptions represents Dial's options.

@@ -7,10 +7,10 @@ import (
 	"io"
 	"time"
 
-	"JaegerFong/websocket"
-	"JaegerFong/websocket/internal/test/assert"
-	"JaegerFong/websocket/internal/test/xrand"
-	"JaegerFong/websocket/internal/xsync"
+	"github.com/JaegerFong/websocket"
+	"github.com/JaegerFong/websocket/internal/test/assert"
+	"github.com/JaegerFong/websocket/internal/test/xrand"
+	"github.com/JaegerFong/websocket/internal/xsync"
 )
 
 // EchoLoop echos every msg received from c until an error

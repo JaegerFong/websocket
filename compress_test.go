@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"JaegerFong/websocket/internal/test/assert"
-	"JaegerFong/websocket/internal/test/xrand"
+	"github.com/JaegerFong/websocket/internal/test/assert"
+	"github.com/JaegerFong/websocket/internal/test/xrand"
 )
 
 func Test_slidingWindow(t *testing.T) {

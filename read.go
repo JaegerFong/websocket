@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"JaegerFong/websocket/internal/errd"
-	"JaegerFong/websocket/internal/xsync"
+	"github.com/JaegerFong/websocket/internal/errd"
+	"github.com/JaegerFong/websocket/internal/xsync"
 )
 
 // Reader reads from the connection until there is a WebSocket

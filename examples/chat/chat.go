@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"JaegerFong/websocket"
+	"github.com/JaegerFong/websocket"
 )
 
 // chatServer enables broadcasting to a set of subscribers.

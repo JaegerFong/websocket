@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"JaegerFong/websocket/internal/test/assert"
+	"github.com/JaegerFong/websocket/internal/test/assert"
 )
 
 func TestBadDials(t *testing.T) {

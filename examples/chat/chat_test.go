@@ -14,7 +14,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"JaegerFong/websocket"
+	"github.com/JaegerFong/websocket"
 )
 
 func Test_chatServer(t *testing.T) {

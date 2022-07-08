@@ -11,7 +11,7 @@ import (
 	"log"
 	"time"
 
-	"JaegerFong/websocket/internal/errd"
+	"github.com/JaegerFong/websocket/internal/errd"
 )
 
 // Close performs the WebSocket close handshake with the given status code and reason.

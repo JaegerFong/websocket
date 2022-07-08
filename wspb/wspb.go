@@ -1,5 +1,5 @@
 // Package wspb provides helpers for reading and writing protobuf messages.
-package wspb // import "JaegerFong/websocket/wspb"
+package wspb // import "github.com/JaegerFong/websocket/wspb"
 
 import (
 	"bytes"
@@ -8,9 +8,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"JaegerFong/websocket"
-	"JaegerFong/websocket/internal/bpool"
-	"JaegerFong/websocket/internal/errd"
+	"github.com/JaegerFong/websocket"
+	"github.com/JaegerFong/websocket/internal/bpool"
+	"github.com/JaegerFong/websocket/internal/errd"
 )
 
 // Read reads a protobuf message from c into v.

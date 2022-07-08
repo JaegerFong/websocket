@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"JaegerFong/websocket"
-	"JaegerFong/websocket/internal/test/assert"
-	"JaegerFong/websocket/internal/test/wstest"
+	"github.com/JaegerFong/websocket"
+	"github.com/JaegerFong/websocket/internal/test/assert"
+	"github.com/JaegerFong/websocket/internal/test/wstest"
 )
 
 func TestWasm(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"JaegerFong/websocket/internal/test/assert"
+	"github.com/JaegerFong/websocket/internal/test/assert"
 )
 
 func TestCloseError(t *testing.T) {

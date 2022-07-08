@@ -16,11 +16,11 @@ import (
 	"testing"
 	"time"
 
-	"JaegerFong/websocket/internal/errd"
-	"JaegerFong/websocket/internal/test/assert"
-	"JaegerFong/websocket/internal/test/wstest"
+	"github.com/JaegerFong/websocket/internal/errd"
+	"github.com/JaegerFong/websocket/internal/test/assert"
+	"github.com/JaegerFong/websocket/internal/test/wstest"
 
-	"JaegerFong/websocket"
+	"github.com/JaegerFong/websocket"
 )
 
 var excludedAutobahnCases = []string{

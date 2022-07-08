@@ -1,6 +1,6 @@
 # Echo Example
 
-This directory contains a echo server example using JaegerFong/websocket.
+This directory contains a echo server example using github.com/JaegerFong/websocket.
 
 ```bash
 $ cd examples/echo

@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"JaegerFong/websocket/internal/errd"
+	"github.com/JaegerFong/websocket/internal/errd"
 )
 
 // AcceptOptions represents Accept's options.
