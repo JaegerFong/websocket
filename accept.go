@@ -1,3 +1,4 @@
+//go:build !js
 // +build !js
 
 package websocket
@@ -16,7 +17,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"nhooyr.io/websocket/internal/errd"
+	"JaegerFong/websocket/internal/errd"
 )
 
 // AcceptOptions represents Accept's options.
@@ -239,9 +240,9 @@ func acceptCompression(r *http.Request, w http.ResponseWriter, mode CompressionM
 		switch ext.name {
 		case "permessage-deflate":
 			return acceptDeflate(w, ext, mode)
-			// Disabled for now, see https://github.com/nhooyr/websocket/issues/218
-			// case "x-webkit-deflate-frame":
-			// 	return acceptWebkitDeflate(w, ext, mode)
+		// Disabled for now, see https://github.com/nhooyr/websocket/issues/218
+		case "x-webkit-deflate-frame":
+			return acceptWebkitDeflate(w, ext, mode)
 		}
 	}
 	return nil, nil

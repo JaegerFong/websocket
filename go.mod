@@ -1,4 +1,4 @@
-module nhooyr.io/websocket
+module JaegerFong/websocket
 
 go 1.13
 
